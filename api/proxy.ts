@@ -3,7 +3,7 @@ export const config = {
 };
 
 export default async function handler(request: Request) {
-  const origin = "http://moovenda.com";
+  const origin = "https://moovenda.com";
   const fallback = "https://xn--hu1b83jivfn3f8sbb21bgkc.com/";
 
   const url = new URL(request.url);
